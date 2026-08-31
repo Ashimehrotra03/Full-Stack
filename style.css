@@ -1,0 +1,12 @@
+/* selectors are the way to target elements in a html file */
+/* element selectors */
+div{
+    color: blue;
+}
+p{
+    color: cadetblue;
+}
+/* in a css file class is always marked with . */
+/* in external css we make a separate file of css
+in internal css we use style tag in head of the html file
+in inline css we use style as attribute with some other html tag in body of the html file */

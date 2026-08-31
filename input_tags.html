@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="POST">
+    <label for="rollno">rollno</label><br>
+    <input type="number" id="rollno" required name="rollno" placeholder="enter your rollno">
+    <br>
+    <label for="phone_no">Phone no</label><br>
+    <input type="tel"
+    maxlength="10"  name ="phone_no" placeholder="Enter your phone no">
+    <br>
+    <input type="password" pattern="[A-Za-z0-9]{8,}" placeholder="Enter your password">
+    <br>
+    <br>
+    <input type="email">
+    <br>
+    <br>
+    <input type="date">
+    <br>
+    <br>
+    <input type="datetime-local">
+    <br>
+    <label for="GENDER"> GENDER</label>
+    <label for="MALE">M</label>
+    <input type="radio" id="Male" value="Male" name="GENDER" >
+    <label for="Female">F</label>
+    <input type="radio" id="Female" value="Female" name="GENDER" >
+    <br>
+    <input type="checkbox">I agree to the terms and conditions above.
+    <br>
+    <input type="color">
+    <br>
+    <input type="file" accept="pdf/jpeg">
+    <input type="range" step="0.5">
+    <br>
+     <button type="submit">Submit</button><br>
+    </form>
+</body>
+</html>
